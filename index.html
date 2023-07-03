@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Easy parallax effect with background-attachment: fixed</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./style.css">
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.0.13/css/all.css'>
+</head>
+<body>
+  <div class="hamburgermenu">
+  <header>
+    <button id="hamburger">
+      <span class="line" id="firstspan"></span>
+      <span class="line" id="secondspan"></span>
+      <span class="line" id="thirdspan"></span>
+    </button>
+    <nav id="nav" class="nav" >
+      <ul>
+        <li><a href="#home">Home</a><span></span></li>
+        <li><a href="#projects">PROJECTS</a><span></span></li>
+        <li><a href="#about">ABOUT</a><span></span></li>
+        <li><a href="#training">Training</a><span></span></li>
+        <li><a href="#blog">BLOG</a><span></span></li>
+        <li><a href="#contact">CONTACT</a><span></span></li>
+        </ul>
+    </nav>
+  </header>
+  </div>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h2>Mountain Star Zlatibor</h2>
+  <p>Zlatibor is a mountain of exceptional beauty whose special geographical properties have made this mountain a real gem of western Serbia.</p>
+  <a href="#">Learn more</a>
+</div>
+
+<div class="blank"></div>
+
+<div class="container second">
+  <div class='item'>
+    <div class='item__image'>
+      <div class='image-switch__outer'>
+        <div class='image-switch__inner'>
+          <img src='https://images.unsplash.com/photo-1522163182402-834f871fd851?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1606&q=80'>
+        </div>
+      </div>
+    </div>
+    <div class='item__description'>
+      <div class='description-switch__outer'>
+        <div class='description-switch__inner'>
+          <a href='https://www.nytimes.com/2017/02/16/automobiles/headlights-get-new-attention-as-more-than-a-car-design-flourish.html' target='_blank'>
+            <p>Read about headlights</p>
+            <div class='item__action-arrow'>
+              <i class='far fa-arrow-alt-circle-right'></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class='flap level0'>
+      <div class='flap level1 flip-right'>
+        <div class='flap level2 flip-down'>
+          <div class='flap level3 flip-left'></div>
+          <div class='flap level3 flip-right'>
+            <div class='flap level4 flip-up'>
+              <div class='flap level5 flip-right'>
+                <div class='flap level6 flip-left'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flap level2 flip-up'>
+          <div class='flap level3 flip-left'>
+            <div class='flap level4 flip-up'></div>
+            <div class='flap level5 flip-down'>
+              <div class='flap level6 flip-left'>
+                <div class='flap level7 flip-up'>
+                  <div class='flap level8 flip-left'></div>
+                  <div class='flap level8 flip-right'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='flap level1 flip-left'>
+        <div class='flap level2 flip-up'>
+          <div class='flap level3 flip-left'>
+            <div class='flap level4 flip-down'>
+              <div class='flap level5 flip-left'>
+                <div class='flap level6 flip-right'>
+                  <div class='flap level7 flip-up'>
+                    <div class='flap level8--alt flip-right'></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flap level2 flip-down'>
+          <div class='flap level3 flip-right'>
+            <div class='flap level4 flip-down'>
+              <div class='flap level5 flip-up'></div>
+            </div>
+            <div class='flap level5 flip-up'>
+              <div class='flap level6 flip-right'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='item__hover-icon'>
+      <div class='icon-switch__outer'>
+        <div class='icon-switch__inner'>
+          <i class='fas fa-lightbulb'></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='item'>
+    <div class='item__image'>
+      <div class='image-switch__outer'>
+        <div class='image-switch__inner'>
+          <img src='https://images.unsplash.com/photo-1628746404106-4d3843b231b3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8Y2F2aW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=900&q=60'>
+        </div>
+      </div>
+    </div>
+    <div class='item__description'>
+      <div class='description-switch__outer'>
+        <div class='description-switch__inner'>
+          <a href='https://www.designboom.com/design/konstantin-grcic-smart-mobile-disco-car-concept-mercedes-benz-04-18-2018/' target='_blank'>
+            <p>Read about Mercedes-Benz</p>
+            <div class='item__action-arrow'>
+              <i class='far fa-arrow-alt-circle-right'></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class='flap level0'>
+      <div class='flap level1 flip-right'>
+        <div class='flap level2 flip-down'>
+          <div class='flap level3 flip-left'></div>
+          <div class='flap level3 flip-right'>
+            <div class='flap level4 flip-up'>
+              <div class='flap level5 flip-right'>
+                <div class='flap level6 flip-left'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flap level2 flip-up'>
+          <div class='flap level3 flip-left'>
+            <div class='flap level4 flip-up'></div>
+            <div class='flap level5 flip-down'>
+              <div class='flap level6 flip-left'>
+                <div class='flap level7 flip-up'>
+                  <div class='flap level8 flip-left'></div>
+                  <div class='flap level8 flip-right'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='flap level1 flip-left'>
+        <div class='flap level2 flip-up'>
+          <div class='flap level3 flip-left'>
+            <div class='flap level4 flip-down'>
+              <div class='flap level5 flip-left'>
+                <div class='flap level6 flip-right'>
+                  <div class='flap level7 flip-up'>
+                    <div class='flap level8--alt flip-right'></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flap level2 flip-down'>
+          <div class='flap level3 flip-right'>
+            <div class='flap level4 flip-down'>
+              <div class='flap level5 flip-up'></div>
+            </div>
+            <div class='flap level5 flip-up'>
+              <div class='flap level6 flip-right'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='item__hover-icon'>
+      <div class='icon-switch__outer'>
+        <div class='icon-switch__inner'>
+          <i class='fas fa-car'></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='item'>
+    <div class='item__image'>
+      <div class='image-switch__outer'>
+        <div class='image-switch__inner'>
+          <img src='https://images.unsplash.com/photo-1632853073412-782bf0279d65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80'>
+        </div>
+      </div>
+    </div>
+    <div class='item__description'>
+      <div class='description-switch__outer'>
+        <div class='description-switch__inner'>
+          <a href='https://www.pinterest.com/taketentire/bugs/' target='_blank'>
+            <p>Photos of the VW Beetle</p>
+            <div class='item__action-arrow'>
+              <i class='far fa-arrow-alt-circle-right'></i>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class='flap level0'>
+      <div class='flap level1 flip-right'>
+        <div class='flap level2 flip-down'>
+          <div class='flap level3 flip-left'></div>
+          <div class='flap level3 flip-right'>
+            <div class='flap level4 flip-up'>
+              <div class='flap level5 flip-right'>
+                <div class='flap level6 flip-left'></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flap level2 flip-up'>
+          <div class='flap level3 flip-left'>
+            <div class='flap level4 flip-up'></div>
+            <div class='flap level5 flip-down'>
+              <div class='flap level6 flip-left'>
+                <div class='flap level7 flip-up'>
+                  <div class='flap level8 flip-left'></div>
+                  <div class='flap level8 flip-right'></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class='flap level1 flip-left'>
+        <div class='flap level2 flip-up'>
+          <div class='flap level3 flip-left'>
+            <div class='flap level4 flip-down'>
+              <div class='flap level5 flip-left'>
+                <div class='flap level6 flip-right'>
+                  <div class='flap level7 flip-up'>
+                    <div class='flap level8--alt flip-right'></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='flap level2 flip-down'>
+          <div class='flap level3 flip-right'>
+            <div class='flap level4 flip-down'>
+              <div class='flap level5 flip-up'></div>
+            </div>
+            <div class='flap level5 flip-up'>
+              <div class='flap level6 flip-right'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='item__hover-icon'>
+      <div class='icon-switch__outer'>
+        <div class='icon-switch__inner'>
+          <i class='fas fa-bug'></i>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="blank"></div>
+<!-- partial -->
+<!-- partial:index.partial.html -->
+<div class="external">
+  <div class="horizontal-scroll-wrapper">
+    <div class="img-wrapper slower">
+      <a class="a-doll" href="https://altphotos.com/photo/stylish-parisian-cafe-terrace-279/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-cafe-terrace.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="img-wrapper faster">
+      <a class="a-doll" href="https://altphotos.com/photo/retro-boy-doll-wearing-elegant-clothes-330/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/antiquedollboy.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="img-wrapper slower vertical">
+      <a class="a-doll" href="https://altphotos.com/photo/clocks-shop-exposition-window-reflecting-the-streets-277/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/windowshopclock.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="img-wrapper slower slower-down">
+      <a class="a-doll" href="https://altphotos.com/photo/swans-and-ducks-swimming-in-a-river-264/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="img-wrapper">
+      <a class="a-doll" href="https://altphotos.com/photo/sidewalk-terrace-of-a-blue-facade-cafe-312/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-terrace.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="img-wrapper slower">
+      <a class="a-doll" href="https://altphotos.com/photo/paris-waterfront-at-sunset-1555/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-seine-boat.jpg" alt="">
+      </a>
+    </div>
+
+    <div class="img-wrapper faster1">
+      <a class="a-doll" href="https://altphotos.com/photo/old-man-leaning-over-the-barrier-looking-at-the-river-265/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/old-man-river.jpg" alt="">
+      </a>
+    </div>
+    
+    <div class="img-wrapper slower slower2">
+      <a class="a-doll" href="https://altphotos.com/photo/cafe-terrace-with-a-row-of-retro-tables-261/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-table-street.jpg" alt="">
+      </a>
+    </div>
+    
+    <div class="img-wrapper">
+      <a class="a-doll" href="https://altphotos.com/photo/street-scene-with-pedestrians-and-dogs-318/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/street-scene-people.jpg" alt="">
+      </a>
+    </div>
+    
+    <div class="img-wrapper slower">
+      <a class="a-doll" href="https://altphotos.com/photo/tourist-barge-on-the-river-seine-near-notre-dame-266/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg" alt="">
+      </a>
+    </div>
+    
+    <div class="img-wrapper slower last">
+      <a class="a-doll" href="https://altphotos.com/photo/skulls-decoration-in-a-shop-window-331/" target="_blank" rel="noopener">
+        <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/shop-window-reflection.jpg" alt="">
+      </a>
+    </div>
+  </div>
+  <p class="scroll-info p-doll">
+    <span class="icon">
+      <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 100 100" ><path d="M50,67.1c-0.6,0-1.2-0.2-1.8-0.7c-3.8-3.8-7.7-7.7-11.5-11.5c-2.3-2.3,1.2-5.8,3.5-3.5c2.5,2.5,4.9,4.9,7.4,7.4      c0-13.7,0-27.4,0-41.2c0-0.6,0.2-1.2,0.5-1.5c0,0,0,0,0,0c0.4-0.6,1.1-1,2-0.9c13.7,0.3,26.4,7.2,33.5,19.1      C96.5,55.9,84.7,85,60.2,91.6C35.5,98.2,11.6,79.1,11.1,54c-0.1-3.2,4.9-3.2,5,0c0.3,13.8,8.4,26.4,21.3,31.5      c12.5,5,27.1,1.9,36.6-7.5c9.5-9.5,12.5-24.1,7.5-36.6c-4.8-12.1-16.3-20.1-29-21.2c0,12.8,0,25.5,0,38.3      c2.5-2.5,4.9-4.9,7.4-7.4c2.3-2.3,5.8,1.3,3.5,3.5c-3.9,3.9-7.8,7.8-11.8,11.8C51.2,66.9,50.6,67.1,50,67.1z"/></svg>
+    </span>
+      Scroll down
+  </p>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
